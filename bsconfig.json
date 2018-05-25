@@ -1,0 +1,22 @@
+{
+  "name": "hello-re-app",
+  "version": "0.1.0",
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "reason": {"react-jsx" : 2},
+  "bs-dependencies": [
+      "reason-react"
+  ],
+  "warnings": {
+    "error" : "+101"
+  },
+  "namespace": true,
+  "refmt": 3
+}
